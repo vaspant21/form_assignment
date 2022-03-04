@@ -1,0 +1,51 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.form {
+  display: inline-block;
+  border: 1px solid rgb(197, 197, 197);
+  padding: 20px;
+}
+
+h3 {
+  color: rgb(73, 23, 139);
+}
+
+.title {
+ text-align: center;
+}
+
+.form-container {
+    text-align: center;
+}
+
+label[for="small"] {
+  background-color: rgb(248, 214, 225);
+}
+label[for="medium"] {
+  background-color: rgb(251, 249, 141);
+}
+label[for="large"] {
+  background-color: rgb(163, 241, 241);
+}
+
+.size-selection {
+    text-align: center;
+}
+input[type="button"] {
+  display: inline-block;
+  border: 2px outset rgb(107, 107, 107);
+  border-radius: 0px;
+  background-color: rgb(255, 231, 200);
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  background-color: rgb(242, 217, 184);
+}
+
+input[type="button"]:active {
+  background-color: rgb(216, 177, 126);
+  border-style: inset;
+}
